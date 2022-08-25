@@ -10,6 +10,10 @@ body {
     background: linear-gradient(45deg, #f3eecf, #f9faf1);
 }
 
+.flip-link a {
+    cursor: pointer;
+}
+
 .card, .front-face, .back-face {
     position: absolute;
 }
