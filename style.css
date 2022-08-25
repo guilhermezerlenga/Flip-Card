@@ -30,26 +30,35 @@ body {
     width: 100%;
     text-align: center;
     background-color: rgba(38, 139, 255, 0.788);
-    /* background: url(./perfil.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
     border-radius: 20px;
     backface-visibility: hidden;
     transition:  transform .80s cubic-bezier(.4, .2, .2, 1);
+
+     /* background: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
 }
 
 .card .front-face h2 {
-    margin-top: 40%;
+    margin-top: 35%;
     color: #fff;
     font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.card .front-face p {
+    margin-top: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
 .card .back-face {
     transform: rotateY(180deg);
     background-color: rgba(20, 84, 156, 0.788);
-    /* background: url(./perfil.png);
+    /* background: url();
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
@@ -57,9 +66,17 @@ body {
 }
 
 .card .back-face h2 {
-    margin-top: 40%;
+    margin-top: 35%;
     color: #fff;
     font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.card .back-face  p {
+    margin-top: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
